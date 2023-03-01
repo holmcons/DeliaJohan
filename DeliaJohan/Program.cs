@@ -14,7 +14,7 @@ List<Customer> customers = new List<Customer>()
                     new Customer(){ Name="Tina Fey", Balance=1000000.00, Bank="CITI"},
                     new Customer(){ Name="Sid Brown", Balance=49582.68, Bank="CITI"}
          };
-
+//kfhughdfgjldkgdfkgl
 var s = customers.Select(x => new
 {
     LastName = x.Name.Split(' ')[^1],
