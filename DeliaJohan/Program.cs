@@ -1,4 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Exemple code from LINQ exercices:
+
+
 List<Customer> customers = new List<Customer>()
         {
                     new Customer(){ Name="Bob Lesman", Balance=80345.66, Bank="FTB"},
@@ -32,7 +34,7 @@ foreach (var a in s)
         Console.WriteLine($"{a.LastName} already is big G");
     }
 }
-    }
+    
 
     public class Customer
 {
